@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+body{
+    background-color: white;
+    
+}
+.mtn{
+    margin: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    line-height: 10px;
+ animation: 2s ease;
+
+}
+
+.ww{
+    color: black;
+    font-style: unset;
+    font-size: 50px;
+    padding-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 10px;
+
+
+}
+.to{
+    font-size: 50px;
+    font-style: unset;
+    padding-left: 170px;
+    color: darkorchid;
+    font-family: 'Times New Roman', Times, serif;
+line-height: 10px;
+}
+.web{
+    padding-left: 100px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 10px;
+} 
+.mmm{
+    justify-content: space-between;
+    align-items:center;
+    line-break: normal;
+    float: right;
+    position: relative;
+    bottom: 200px;
+right: 350px;
+animation:img 2ms ease ;
+}
+.list{
+    border: 3px black solid;
+    width: 1500px;
+    height: 50px;
+    background-color: mediumpurple;
+
+}.ul{
+    color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    
+
+}
+
+
+
+
+@keyframes img{
+    from{
+        transform: translateX(-500px);
+    }
+to{
+    transform: translateX(0);
+    
+}
+}
+@keyframes mm {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(500px);
+    }
+    
+}
